@@ -17,7 +17,7 @@ msg "Building and publishing libraries"
 # cd "$BASEDIR/packages/libraries" && yarn publish --access public
 
 msg "Building and publishing react-components"
-# cd "$BASEDIR/packages/react-components" && rm -rf dist && yarn && npm publish --tag core-1.0
+cd "$BASEDIR/packages/react-components" && rm -rf dist && yarn && npm publish --tag core-1.0
 
 # sleep 10
 # msg "Updating dependencies"
